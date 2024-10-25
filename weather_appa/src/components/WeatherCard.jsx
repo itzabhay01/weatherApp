@@ -24,7 +24,6 @@ const WeatherCard = () => {
     const [errorMessage, setErrorMessage] = useState("");
     const [backgroundImage, setBackgroundImage] = useState('linear-gradient(45deg, #2f4680, #500ae4)');
     const [weatherCondition, setWeatherCondition] = useState(""); // New state for weather condition
-
     const API_KEY =  import.meta.env.VITE_API_KEY;
 
     const backgroundImages = {
